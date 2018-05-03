@@ -52,4 +52,6 @@ ADD AppDef.json /etc/NAE/AppDef.json
 ADD et /usr/bin/et
 ADD ec /usr/bin/ec
 
+RUN chmod +x /usr/bin/et
+RUN chmod +x /usr/bin/ec
 
